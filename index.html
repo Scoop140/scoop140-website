@@ -9,11 +9,21 @@
             background-color: Cornsilk; 
             color: black; 
             padding: 15px; /* Add some padding for better readability */
+            font-size: 22px
         }
     </style>
 </head>
 <body>
 <h1>The Hodgkins Lutheran</h1>
+<div id="current_date">
+    <script>
+        date = new Date();
+        year = date.getFullYear();
+        month = date.getMonth() + 1;
+        day = date.getDate();
+        document.getElementById("current_date").innerHTML = month + "/" + day + "/" + year;
+    </script>
+</div>
 <p>=======================================================================================</p>
 <h3>The Son is the image of the invisible God, the firstborn over all creation. For in Him all things were created: things in heaven and on earth, visible and invisible, whether thrones or powers or rulers or authorities; all things have been created through Him and for Him. He is before all things, and in Him all things hold together. And He is the head of the body, the church; He is the beginning and the firstborn from among the dead, so that in everything He might have the supremacy. For God was pleased to have all His fullness dwell in Him, and through Him to reconcile to Himself all things, whether things on earth or things in heaven, by making peace though His blood, shed on the cross (Colossians 1:15-20).</h3>
 <p>=======================================================================================</p>	
